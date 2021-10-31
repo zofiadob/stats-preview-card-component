@@ -1,0 +1,40 @@
+html{
+    box-sizing: border-box; 
+}
+
+body{
+    background-color: hsl(233, 47%, 7%);
+    color: hsl(0, 0%, 100%);
+    font-family: Inter;
+    text-align: center;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    width: 100%;
+    margin: auto;
+}
+
+.box-all{
+    background-color: hsl(244, 38%, 16%);
+    width: 100%;
+    max-width: 327px;
+    margin: auto;
+    font-size: 15px;
+    border-radius: 10px;
+}
+
+h1{
+    
+}
+
+.img-box img{
+    max-width: 327px;
+    border-radius: 10px 10px 0 0 ;
+    filter: contrast(200%);
+    filter: hue-rotate(90deg);
+}
+
+
+
+.img-box{
+    width: 100%;
+}
