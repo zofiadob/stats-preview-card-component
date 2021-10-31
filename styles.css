@@ -22,9 +22,6 @@ body{
     border-radius: 10px;
 }
 
-h1{
-    
-}
 
 .img-box img{
     max-width: 327px;
@@ -33,8 +30,58 @@ h1{
     filter: hue-rotate(90deg);
 }
 
-
-
 .img-box{
     width: 100%;
+}
+
+#color{
+    background-color: hsl(277, 78%, 32%);
+    min-width: 327px;
+    min-height: 240px;
+    position: absolute;
+    z-index: 1;
+    opacity: 57%;
+    border-radius: 10px 10px 0 0;
+}
+
+.bigger-box{
+    margin: 20px;
+}
+
+h1{
+    font-weight: 700;
+    padding-top: 10px;
+}
+
+#violetText{
+    color: hsl(277, 64%, 61%);
+}
+
+div > h1 + p{
+    font-family: Lexend Deca;
+    font-weight: 400;
+    color: hsla(0, 0%, 100%, 0.6);
+    line-height: 25px;
+    padding: 0 10px 0 10px;
+}
+
+.stats{
+    padding: 10px;
+}
+
+.stats:nth-of-type(3){
+    padding-bottom: 40px;
+}
+
+.stats > p{
+    margin: 5px;
+    font-size: 25px;
+}
+
+.stats > p + span{
+    text-transform : uppercase;
+    font-family: Lexend Deca;
+    font-weight: 300;
+    color: hsla(0, 0%, 100%, 0.6);
+    font-size: 12px;
 }
