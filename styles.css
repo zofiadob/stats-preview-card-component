@@ -12,6 +12,7 @@ body{
     height: 100%;
     margin: auto;
     position: relative;
+    text-align: center;
 }
 
 .box-all{
