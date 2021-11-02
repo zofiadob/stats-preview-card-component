@@ -92,10 +92,7 @@ div > h1 + p{
 
 
 @media all and (min-width: 1300px) {
-    body{
-        margin: auto;
-    }
-    
+
     .box-all{
         max-width: 1110px;
         max-height: 446px;
@@ -109,6 +106,7 @@ div > h1 + p{
 
     .img-box:nth-of-type(3){
         display: inline-flex;
+        width: 50%;
     }
 
     .img-box:nth-of-type(3) > div{
@@ -123,21 +121,43 @@ div > h1 + p{
 
     .bigger-box{
         text-align: left;
+        margin: 0;
+        width: 50%;
     }
 
-    .bigger-box p, .stats{
-        margin: 0;
+    h1{
+        margin-top: 60px;
+        margin-right: 110px;
+        margin-bottom: 20px;
+        margin-left: 70px;
+        font-size: 35px;
+        
+    }
+
+    .bigger-box > h1 + p{
+        margin-top: 30px;
+        margin-right: 110px;
+        margin-bottom: 70px;
+        margin-left: 65px;
         padding: 0;
     }
 
     .stats{
-        width: 40%;
+        width: 120px;
         display: table-cell;
+    }
+
+    .stats{
+        margin-left: 70px;
+    }
+
+    .stats > p{
+        margin: 0;
     }
 
     div#color{
         border-radius: 0 10px 10px 0;
-        min-width: 578px;
+        min-width: 555px;
         min-height: 446px;
     }
 
