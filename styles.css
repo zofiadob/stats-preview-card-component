@@ -12,11 +12,11 @@ body{
     height: 100%;
     margin: auto;
     position: relative;
+    text-align: center;
 }
 
 .box-all{
     background-color: hsl(244, 38%, 16%);
-    text-align: center;
     width: 100%;
     max-width: 327px;
     margin: auto;
