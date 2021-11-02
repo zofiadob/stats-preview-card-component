@@ -1,16 +1,17 @@
 html{
     box-sizing: border-box; 
+    height: 100%;
+    width: 100%;
 }
 
 body{
     background-color: hsl(233, 47%, 7%);
     color: hsl(0, 0%, 100%);
     font-family: Inter;
-    text-align: center;
-    padding-top: 50px;
-    padding-bottom: 50px;
     width: 100%;
+    height: 100%;
     margin: auto;
+    position: relative;
 }
 
 .box-all{
@@ -20,6 +21,10 @@ body{
     margin: auto;
     font-size: 15px;
     border-radius: 10px;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
 }
 
 
@@ -97,7 +102,6 @@ div > h1 + p{
         max-width: 1110px;
         max-height: 446px;
         display: inline-flex;
-        margin: auto;
     }
 
     .img-box:nth-of-type(1){
@@ -107,11 +111,6 @@ div > h1 + p{
     .img-box:nth-of-type(3){
         display: inline-flex;
         width: 50%;
-    }
-
-    .img-box:nth-of-type(3) > div{
-        min-width: 100%;
-        min-height: 100%;
     }
 
     .img-box:nth-of-type(3) > div + img{
@@ -127,32 +126,38 @@ div > h1 + p{
 
     h1{
         margin-top: 60px;
-        margin-right: 110px;
+        margin-right: 90px;
         margin-bottom: 20px;
-        margin-left: 70px;
-        font-size: 35px;
+        margin-left: 65px;
+        font-size: 38px;
         
     }
 
     .bigger-box > h1 + p{
         margin-top: 30px;
         margin-right: 110px;
-        margin-bottom: 70px;
+        margin-bottom: 55px;
         margin-left: 65px;
         padding: 0;
     }
 
     .stats{
-        width: 120px;
-        display: table-cell;
+        width: 130px;
+        display: inline-block;
+        padding-left: 0;
     }
 
-    .stats{
-        margin-left: 70px;
+    .stats:nth-of-type(1){
+        margin-left: 65px;
     }
 
     .stats > p{
         margin: 0;
+        padding-bottom: 5px;
+    }
+
+    .stats > p + span{
+        font-size: 13.5px;
     }
 
     div#color{
