@@ -40,7 +40,7 @@ body{
     display: none;
 }
 
-#color{
+.color{
     background-color: hsl(277, 78%, 32%);
     min-width: 327px;
     min-height: 240px;
@@ -157,7 +157,7 @@ div > h1 + p{
         font-size: 13.5px;
     }
 
-    div#color{
+    div.color{
         border-radius: 0 10px 10px 0;
         min-width: 555px;
         min-height: 446px;
